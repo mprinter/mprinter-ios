@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E819F300179D985A0096B1BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F2FF179D985A0096B1BE /* UIKit.framework */; };
+		E819F302179D985A0096B1BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F301179D985A0096B1BE /* Foundation.framework */; };
+		E819F304179D985A0096B1BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F303179D985A0096B1BE /* CoreGraphics.framework */; };
+		E819F30A179D985A0096B1BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E819F308179D985A0096B1BE /* InfoPlist.strings */; };
+		E819F30C179D985A0096B1BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F30B179D985A0096B1BE /* main.m */; };
+		E819F310179D985A0096B1BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F30F179D985A0096B1BE /* AppDelegate.m */; };
+		E819F312179D985A0096B1BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E819F311179D985A0096B1BE /* Default.png */; };
+		E819F314179D985A0096B1BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E819F313179D985A0096B1BE /* Default@2x.png */; };
+		E819F316179D985A0096B1BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E819F315179D985A0096B1BE /* Default-568h@2x.png */; };
+		E819F319179D985A0096B1BE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E819F317179D985A0096B1BE /* MainStoryboard_iPhone.storyboard */; };
+		E819F31F179D985A0096B1BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F31E179D985A0096B1BE /* ViewController.m */; };
+		E819F331179E382E0096B1BE /* libmPrinter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F330179E37590096B1BE /* libmPrinter.a */; };
+		E819F336179E50B30096B1BE /* mPrinter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E819F335179E50B30096B1BE /* mPrinter.bundle */; };
+		E819F34817A16C160096B1BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F34717A16C160096B1BE /* Security.framework */; };
+		E819F34A17A16C2A0096B1BE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F34917A16C2A0096B1BE /* CFNetwork.framework */; };
+		E819F34D17A1749C0096B1BE /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F34C17A1749C0096B1BE /* DiscoveryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E819F32F179E37590096B1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E819F32B179E37590096B1BE /* mPrinter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E819F2A2179D7CA50096B1BE;
+			remoteInfo = mPrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E819F2FC179D985A0096B1BE /* mPrinter Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mPrinter Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E819F2FF179D985A0096B1BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E819F301179D985A0096B1BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E819F303179D985A0096B1BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E819F307179D985A0096B1BE /* mPrinter Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mPrinter Test-Info.plist"; sourceTree = "<group>"; };
+		E819F309179D985A0096B1BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E819F30B179D985A0096B1BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E819F30D179D985A0096B1BE /* mPrinter Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mPrinter Test-Prefix.pch"; sourceTree = "<group>"; };
+		E819F30E179D985A0096B1BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E819F30F179D985A0096B1BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E819F311179D985A0096B1BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E819F313179D985A0096B1BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E819F315179D985A0096B1BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E819F318179D985A0096B1BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E819F31D179D985A0096B1BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E819F31E179D985A0096B1BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E819F32B179E37590096B1BE /* mPrinter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mPrinter.xcodeproj; path = ../mPrinter/mPrinter.xcodeproj; sourceTree = "<group>"; };
+		E819F335179E50B30096B1BE /* mPrinter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mPrinter.bundle; sourceTree = "<group>"; };
+		E819F34717A16C160096B1BE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E819F34917A16C2A0096B1BE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E819F34B17A1749C0096B1BE /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		E819F34C17A1749C0096B1BE /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E819F2F9179D985A0096B1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819F34A17A16C2A0096B1BE /* CFNetwork.framework in Frameworks */,
+				E819F34817A16C160096B1BE /* Security.framework in Frameworks */,
+				E819F331179E382E0096B1BE /* libmPrinter.a in Frameworks */,
+				E819F300179D985A0096B1BE /* UIKit.framework in Frameworks */,
+				E819F302179D985A0096B1BE /* Foundation.framework in Frameworks */,
+				E819F304179D985A0096B1BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E819F2F3179D985A0096B1BE = {
+			isa = PBXGroup;
+			children = (
+				E819F34917A16C2A0096B1BE /* CFNetwork.framework */,
+				E819F34717A16C160096B1BE /* Security.framework */,
+				E819F32B179E37590096B1BE /* mPrinter.xcodeproj */,
+				E819F305179D985A0096B1BE /* mPrinter Test */,
+				E819F2FE179D985A0096B1BE /* Frameworks */,
+				E819F2FD179D985A0096B1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E819F2FD179D985A0096B1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E819F2FC179D985A0096B1BE /* mPrinter Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E819F2FE179D985A0096B1BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E819F2FF179D985A0096B1BE /* UIKit.framework */,
+				E819F301179D985A0096B1BE /* Foundation.framework */,
+				E819F303179D985A0096B1BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E819F305179D985A0096B1BE /* mPrinter Test */ = {
+			isa = PBXGroup;
+			children = (
+				E819F335179E50B30096B1BE /* mPrinter.bundle */,
+				E819F30E179D985A0096B1BE /* AppDelegate.h */,
+				E819F30F179D985A0096B1BE /* AppDelegate.m */,
+				E819F317179D985A0096B1BE /* MainStoryboard_iPhone.storyboard */,
+				E819F31D179D985A0096B1BE /* ViewController.h */,
+				E819F31E179D985A0096B1BE /* ViewController.m */,
+				E819F34B17A1749C0096B1BE /* DiscoveryViewController.h */,
+				E819F34C17A1749C0096B1BE /* DiscoveryViewController.m */,
+				E819F306179D985A0096B1BE /* Supporting Files */,
+			);
+			path = "mPrinter Test";
+			sourceTree = "<group>";
+		};
+		E819F306179D985A0096B1BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E819F307179D985A0096B1BE /* mPrinter Test-Info.plist */,
+				E819F308179D985A0096B1BE /* InfoPlist.strings */,
+				E819F30B179D985A0096B1BE /* main.m */,
+				E819F30D179D985A0096B1BE /* mPrinter Test-Prefix.pch */,
+				E819F311179D985A0096B1BE /* Default.png */,
+				E819F313179D985A0096B1BE /* Default@2x.png */,
+				E819F315179D985A0096B1BE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E819F32C179E37590096B1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E819F330179E37590096B1BE /* libmPrinter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E819F2FB179D985A0096B1BE /* mPrinter Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E819F322179D985A0096B1BE /* Build configuration list for PBXNativeTarget "mPrinter Test" */;
+			buildPhases = (
+				E819F2F8179D985A0096B1BE /* Sources */,
+				E819F2F9179D985A0096B1BE /* Frameworks */,
+				E819F2FA179D985A0096B1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mPrinter Test";
+			productName = "mPrinter Test";
+			productReference = E819F2FC179D985A0096B1BE /* mPrinter Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E819F2F4179D985A0096B1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "mPrinter, LLC";
+			};
+			buildConfigurationList = E819F2F7179D985A0096B1BE /* Build configuration list for PBXProject "mPrinter Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E819F2F3179D985A0096B1BE;
+			productRefGroup = E819F2FD179D985A0096B1BE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E819F32C179E37590096B1BE /* Products */;
+					ProjectRef = E819F32B179E37590096B1BE /* mPrinter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E819F2FB179D985A0096B1BE /* mPrinter Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E819F330179E37590096B1BE /* libmPrinter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmPrinter.a;
+			remoteRef = E819F32F179E37590096B1BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E819F2FA179D985A0096B1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819F30A179D985A0096B1BE /* InfoPlist.strings in Resources */,
+				E819F312179D985A0096B1BE /* Default.png in Resources */,
+				E819F314179D985A0096B1BE /* Default@2x.png in Resources */,
+				E819F316179D985A0096B1BE /* Default-568h@2x.png in Resources */,
+				E819F319179D985A0096B1BE /* MainStoryboard_iPhone.storyboard in Resources */,
+				E819F336179E50B30096B1BE /* mPrinter.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E819F2F8179D985A0096B1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819F30C179D985A0096B1BE /* main.m in Sources */,
+				E819F310179D985A0096B1BE /* AppDelegate.m in Sources */,
+				E819F31F179D985A0096B1BE /* ViewController.m in Sources */,
+				E819F34D17A1749C0096B1BE /* DiscoveryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E819F308179D985A0096B1BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E819F309179D985A0096B1BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E819F317179D985A0096B1BE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E819F318179D985A0096B1BE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E819F320179D985A0096B1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/..";
+			};
+			name = Debug;
+		};
+		E819F321179D985A0096B1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/..";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E819F323179D985A0096B1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mPrinter Test/mPrinter Test-Prefix.pch";
+				INFOPLIST_FILE = "mPrinter Test/mPrinter Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E819F324179D985A0096B1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mPrinter Test/mPrinter Test-Prefix.pch";
+				INFOPLIST_FILE = "mPrinter Test/mPrinter Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E819F2F7179D985A0096B1BE /* Build configuration list for PBXProject "mPrinter Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E819F320179D985A0096B1BE /* Debug */,
+				E819F321179D985A0096B1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E819F322179D985A0096B1BE /* Build configuration list for PBXNativeTarget "mPrinter Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E819F323179D985A0096B1BE /* Debug */,
+				E819F324179D985A0096B1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E819F2F4179D985A0096B1BE /* Project object */;
+}

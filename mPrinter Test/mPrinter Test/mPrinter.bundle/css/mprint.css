@@ -1,0 +1,221 @@
+/**
+ * mPrint CSS v0.3
+ * http://themprinter.com
+ */
+
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'Museo300Regular';
+	src: url('http://manage.themprinter.com/fonts/Museo300-Regular-webfont.eot');
+	src: url('http://manage.themprinter.com/fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('http://manage.themprinter.com/fonts/Museo300-Regular-webfont.woff') format('woff'),
+		url('http://manage.themprinter.com/fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+		url('http://manage.themprinter.com/fonts/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo500Regular';
+	src: url('http://manage.themprinter.com/fonts/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo700Regular';
+	src: url('http://manage.themprinter.com/fonts/Museo700-Regular-webfont.eot');
+	src: url('http://manage.themprinter.com/fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('http://manage.themprinter.com/fonts/Museo700-Regular-webfont.woff') format('woff'),
+		url('http://manage.themprinter.com/fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+		url('http://manage.themprinter.com/fonts/Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Content */
+body { 
+	font-size: 13pt;
+	font-family: "Lucida Grande", "Helvetica Neue", Helvetica, sans-serif;
+	-webkit-font-smoothing: none;
+	font-smoothing: auto;
+	background: white;
+	}
+
+div#mprint_wrapper {
+	/*
+	margin: 1em auto;
+	padding: 10px;
+	*/
+	background: #fff;
+	width: 576px;	
+	overflow: hidden;
+	}
+
+div#mprint_wrapper.centered {	
+	text-align: center;
+	}
+
+h1, h2, h3, h4, h5, h6 { margin-top: .1in; margin-bottom: .1in; font-weight: bold; font-family: "Lucida Grande", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+h1.inverse, h2.inverse, h3.inverse, h4.inverse, h5.inverse, h6.inverse { color: white; background: url(../img/pattern/diag_4.png); padding: .3em; }
+h1.checker, h2.checker, h3.checker, h4.checker, h5.checker, h6.checker { background: url(../img/hr/hr1.png); padding: .3em; }
+h1.border_left, h2.border_left, h3.border_left { border-left: 5px solid #000; padding: .3em; padding-left: 10px; }
+blockquote { line-height: 1.5em; border-left: 5px solid #000; padding: .3em; padding-left: 10px; }
+
+/*
+h1 { font-family: "Museo500Regular"; font-size: 48pt; -webkit-font-smoothing: none; font-weight: bold; }
+h2 { font-family: "Museo500Regular"; font-size: 36pt; -webkit-font-smoothing: none; }
+h3 { font-family: "Museo500Regular"; font-size: 24pt; -webkit-font-smoothing: none; }
+*/
+h1 { font-family: "Museo500Regular", sans-serif; font-size: 48pt; -webkit-font-smoothing: none; font-weight: bold; }
+h2 { font-size: 36pt; -webkit-font-smoothing: none; }
+h3 { font-size: 24pt; -webkit-font-smoothing: none; }
+h4 { font-size: 18pt; line-height: 18pt;}
+h5 { font-size: 14pt; line-height: 14pt; }
+h6 { font-size: 13pt; line-height: 13pt; }
+
+hr { border: none; height: 10px; background: url(../img/pattern/diag_1.png); }
+hr.hr_1 { background: url(../img/pattern/diag_1.png); }
+hr.hr_2 { background: url(../img/pattern/diag_2.png); }
+hr.hr_3 { background: url(../img/pattern/diag_3.png); }
+hr.hr_4 { background: url(../img/hr/hr4.png); }
+hr.hr_5 { background: url(../img/hr/hr5.png); }
+hr.hr_6 { background: url(../img/hr/hr6.png); }
+hr.hr_7 { background: url(../img/hr/hr7.png); }
+hr.hr_8 { background: url(../img/hr/hr8.png); }
+
+.border_1 { border-width: 1px; border-color: black; }
+.border_top { border-top-style: solid; }
+.border_bottom { border-bottom-style: solid; }
+
+p {
+	font-family: "Lucida Grande";
+	font-size: 13pt;
+	-webkit-font-smoothing: none;
+	line-height: 16pt;
+	margin-bottom: .1in;
+	}
+
+b { font-weight: bold; }
+
+div.well { 
+	background: white;
+	padding: 10px;
+	}
+
+div.well.bg_1 { background: url(../img/hr/hr1.png); }
+div.well.bg_2 { background: url(../img/hr/hr2.png); }
+div.well.bg_3 { background: url(../img/hr/hr3.png); }
+div.well.bg_4 { background: url(../img/hr/hr4.png); }
+div.well.bg_5 { background: url(../img/hr/hr5.png); }
+div.well.bg_6 { background: url(../img/hr/hr6.png); }
+
+.row {
+	margin-left: -8px;
+	*zoom: 1;
+}
+
+.row:before,
+.row:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.row:after {
+	clear: both;
+}
+
+[class*="span"] {
+	float: left;
+	min-height: 1px;
+	margin-left: 8px;
+}
+
+.container {
+	margin: 1em auto;
+	margin-top: 0;
+	background: #fff;
+	width: 576px;
+	overflow: hidden;
+}
+
+.span8 { width: 576px; }
+.span7 { width: 503px; }
+.span6 { width: 430px; }
+.span5 { width: 357px; }
+.span4 { width: 284px; }
+.span3 { width: 211px; }
+.span2 { width: 138px; }
+.span1 { width: 65px; }
+
+.offset8 { margin-left: 592px; }
+.offset7 { margin-left: 519px; }
+.offset6 { margin-left: 446px; }
+.offset5 { margin-left: 373px; }
+.offset4 { margin-left: 300px; }
+.offset3 { margin-left: 227px; }
+.offset2 { margin-left: 154px; }
+.offset1 { margin-left: 81px; }
+
+.text-right { text-align: right; }
+.text-left { text-align: right; }
+.text-center { text-align: center; }
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+.inline { display: inline; }
+
+ul.check li { background: url(../img/ul/check.png) no-repeat 0 4px; padding-left: 20px; }
+
+p.large { font-size: 14pt; line-height: 1.5em; }
+p.extra-large { font-size: 16pt; line-height: 1.5em; }
+p.jumbo { font-size: 20pt; line-height: 1.5em; }
+
+h1.text-fill { width: 95%; text-align: center; margin: 0 auto; }

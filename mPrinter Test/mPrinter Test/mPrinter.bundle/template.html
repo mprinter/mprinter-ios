@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=576; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<link rel="stylesheet" type="text/css" href="css/mprint.css" />
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<div class="container" id="container">
+			%%CONTENT%%
+		</div>
+		<br />
+		<script src="js/jquery.js"></script>
+		<script src="js/mprint.js"></script>
+		<script>
+			function appendHTML(html) {
+				//$(".container").html($(".container").html() + unescape(html));
+				$(".container").html(unescape(html));
+			}
+
+			function print() {
+				window.location = "mprinter://print";
+			}
+		</script>
+	</body>
+</html>

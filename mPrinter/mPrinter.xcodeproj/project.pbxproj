@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E819F2A6179D7CA50096B1BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E819F2A5179D7CA50096B1BE /* Foundation.framework */; };
+		E819F2AB179D7CA50096B1BE /* mPrinter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E819F2AA179D7CA50096B1BE /* mPrinter.h */; };
+		E819F2AD179D7CA50096B1BE /* mPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F2AC179D7CA50096B1BE /* mPrinter.m */; };
+		E819F2B6179D7D0A0096B1BE /* floyd_steinberg_dither.c in Sources */ = {isa = PBXBuildFile; fileRef = E819F2B4179D7D0A0096B1BE /* floyd_steinberg_dither.c */; };
+		E819F2BA179D7E230096B1BE /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F2B9179D7E230096B1BE /* UIImage+Extensions.m */; };
+		E819F33F17A0EB530096B1BE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F33E17A0EB530096B1BE /* NSData+Base64.m */; };
+		E819F34517A169D00096B1BE /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F34217A169D00096B1BE /* GCDAsyncSocket.m */; };
+		E819F34617A169D00096B1BE /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E819F34417A169D00096B1BE /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E819F2A0179D7CA50096B1BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				E819F2AB179D7CA50096B1BE /* mPrinter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E819F2A2179D7CA50096B1BE /* libmPrinter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmPrinter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E819F2A5179D7CA50096B1BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E819F2A9179D7CA50096B1BE /* mPrinter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mPrinter-Prefix.pch"; sourceTree = "<group>"; };
+		E819F2AA179D7CA50096B1BE /* mPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mPrinter.h; sourceTree = "<group>"; };
+		E819F2AC179D7CA50096B1BE /* mPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mPrinter.m; sourceTree = "<group>"; };
+		E819F2B4179D7D0A0096B1BE /* floyd_steinberg_dither.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = floyd_steinberg_dither.c; sourceTree = "<group>"; };
+		E819F2B5179D7D0A0096B1BE /* floyd_steinberg_dither.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floyd_steinberg_dither.h; sourceTree = "<group>"; };
+		E819F2B8179D7E230096B1BE /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		E819F2B9179D7E230096B1BE /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		E819F33D17A0EB530096B1BE /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		E819F33E17A0EB530096B1BE /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		E819F34117A169D00096B1BE /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		E819F34217A169D00096B1BE /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		E819F34317A169D00096B1BE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		E819F34417A169D00096B1BE /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E819F29F179D7CA50096B1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819F2A6179D7CA50096B1BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E819F299179D7CA40096B1BE = {
+			isa = PBXGroup;
+			children = (
+				E819F2A7179D7CA50096B1BE /* mPrinter */,
+				E819F2A4179D7CA50096B1BE /* Frameworks */,
+				E819F2A3179D7CA50096B1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E819F2A3179D7CA50096B1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E819F2A2179D7CA50096B1BE /* libmPrinter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E819F2A4179D7CA50096B1BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E819F2A5179D7CA50096B1BE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E819F2A7179D7CA50096B1BE /* mPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				E819F34017A169D00096B1BE /* CocoaAsyncSocket */,
+				E819F2B3179D7D0A0096B1BE /* Dithering */,
+				E819F2B8179D7E230096B1BE /* UIImage+Extensions.h */,
+				E819F2B9179D7E230096B1BE /* UIImage+Extensions.m */,
+				E819F33D17A0EB530096B1BE /* NSData+Base64.h */,
+				E819F33E17A0EB530096B1BE /* NSData+Base64.m */,
+				E819F2AA179D7CA50096B1BE /* mPrinter.h */,
+				E819F2AC179D7CA50096B1BE /* mPrinter.m */,
+				E819F2A8179D7CA50096B1BE /* Supporting Files */,
+			);
+			path = mPrinter;
+			sourceTree = "<group>";
+		};
+		E819F2A8179D7CA50096B1BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E819F2A9179D7CA50096B1BE /* mPrinter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E819F2B3179D7D0A0096B1BE /* Dithering */ = {
+			isa = PBXGroup;
+			children = (
+				E819F2B4179D7D0A0096B1BE /* floyd_steinberg_dither.c */,
+				E819F2B5179D7D0A0096B1BE /* floyd_steinberg_dither.h */,
+			);
+			path = Dithering;
+			sourceTree = "<group>";
+		};
+		E819F34017A169D00096B1BE /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E819F34117A169D00096B1BE /* GCDAsyncSocket.h */,
+				E819F34217A169D00096B1BE /* GCDAsyncSocket.m */,
+				E819F34317A169D00096B1BE /* GCDAsyncUdpSocket.h */,
+				E819F34417A169D00096B1BE /* GCDAsyncUdpSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E819F2A1179D7CA50096B1BE /* mPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E819F2B0179D7CA50096B1BE /* Build configuration list for PBXNativeTarget "mPrinter" */;
+			buildPhases = (
+				E819F29E179D7CA50096B1BE /* Sources */,
+				E819F29F179D7CA50096B1BE /* Frameworks */,
+				E819F2A0179D7CA50096B1BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mPrinter;
+			productName = mPrinter;
+			productReference = E819F2A2179D7CA50096B1BE /* libmPrinter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E819F29A179D7CA50096B1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "mPrinter, LLC";
+			};
+			buildConfigurationList = E819F29D179D7CA50096B1BE /* Build configuration list for PBXProject "mPrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E819F299179D7CA40096B1BE;
+			productRefGroup = E819F2A3179D7CA50096B1BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E819F2A1179D7CA50096B1BE /* mPrinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E819F29E179D7CA50096B1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819F2AD179D7CA50096B1BE /* mPrinter.m in Sources */,
+				E819F2B6179D7D0A0096B1BE /* floyd_steinberg_dither.c in Sources */,
+				E819F2BA179D7E230096B1BE /* UIImage+Extensions.m in Sources */,
+				E819F33F17A0EB530096B1BE /* NSData+Base64.m in Sources */,
+				E819F34517A169D00096B1BE /* GCDAsyncSocket.m in Sources */,
+				E819F34617A169D00096B1BE /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E819F2AE179D7CA50096B1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E819F2AF179D7CA50096B1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E819F2B1179D7CA50096B1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mPrinter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mPrinter/mPrinter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E819F2B2179D7CA50096B1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mPrinter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mPrinter/mPrinter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E819F29D179D7CA50096B1BE /* Build configuration list for PBXProject "mPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E819F2AE179D7CA50096B1BE /* Debug */,
+				E819F2AF179D7CA50096B1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E819F2B0179D7CA50096B1BE /* Build configuration list for PBXNativeTarget "mPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E819F2B1179D7CA50096B1BE /* Debug */,
+				E819F2B2179D7CA50096B1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E819F29A179D7CA50096B1BE /* Project object */;
+}
